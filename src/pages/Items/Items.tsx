@@ -7,7 +7,7 @@ import ItemCardTab from "./components/ItemCardTab";
 const Items = () => {
   const [tabValue, setTabValue] = useState(0);
 
-  const handleChange = (event: SyntheticEvent, newValue: number) => {
+  const handleChange = (_: SyntheticEvent, newValue: number) => {
     setTabValue(newValue);
   };
 
