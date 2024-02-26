@@ -7,7 +7,7 @@ import { Stack } from "@mui/material";
 import ConfirmationDialog from "./ConfirmationDialog";
 import { columns } from "./ItemsTableColumnConfig";
 
-interface Item {
+export interface Item {
   id: string;
   category: string;
   name: string;
